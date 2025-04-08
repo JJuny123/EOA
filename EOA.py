@@ -573,7 +573,7 @@ if __name__ == "__main__":
     # sess = tf.Session(config=config)
     sess = tf.Session()
 
-    epochs = 2000
+    epochs = 3000
     loss_config.reg_pnet_loss(loss_config.clf_loss_l2, 'clf_max', 1)
     loss_config.reg_pyradmid_loss(loss_config.clf_loss_l2_v2, 'clf_max_v2', 1)
     loss_config.reg_facebox_loss(loss_config.clf_loss_l2_v3, 'clf_max_v3', 1)
